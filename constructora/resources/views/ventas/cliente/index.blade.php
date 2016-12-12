@@ -14,11 +14,11 @@
 				<thead>
 					<th>Rut</th>
 					<th>Nombre</th>
-					<th>ApellidoPaterno</th>
-					<th>ApellidoMaterno</th>
-					<th>RazonSocial</th>
+					<th>Apellido paterno</th>
+					<th>Apellido materno</th>
+					<th>Razón social</th>
 					<th>Giro</th>
-					<th>Direccion</th>
+					<th>Dirección</th>
 					<th>Representante</th>
 
 					<th>Opciones</th>

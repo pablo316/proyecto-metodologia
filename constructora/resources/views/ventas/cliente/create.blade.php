@@ -2,7 +2,7 @@
 @section ('contenido')
       <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <h3>Nuevo Cliente</h3>
+                  <h3>Nuevo cliente</h3>
                   @if (count($errors)>0)
                   <div class="alert alert-danger">
                         <ul>
@@ -32,20 +32,20 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_apellidopaterno">Apellido Paterno</label>
-                        <input type="text" name="cli_apellidopaterno" class="form-control" placeholder="Apellido Paterno">
+                        <label for="cli_apellidopaterno">Apellido paterno</label>
+                        <input type="text" name="cli_apellidopaterno" class="form-control" placeholder="Apellido paterno">
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_apellidomaterno">Apellido Materno</label>
-                        <input type="text" name="cli_apellidomaterno" class="form-control" placeholder="Apellido Materno">
+                        <label for="cli_apellidomaterno">Apellido materno</label>
+                        <input type="text" name="cli_apellidomaterno" class="form-control" placeholder="Apellido materno">
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_razonsocial">RazonSocial</label>
-                        <input type="text" name="cli_razonsocial" class="form-control" placeholder="RazonSocial">
+                        <label for="cli_razonsocial">Razón social</label>
+                        <input type="text" name="cli_razonsocial" class="form-control" placeholder="Razón social">
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -56,8 +56,8 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_direccion">Direccion</label>
-                        <input type="text" name="cli_direccion" class="form-control" placeholder="Direccion">
+                        <label for="cli_direccion">Dirección</label>
+                        <input type="text" name="cli_direccion" class="form-control" placeholder="Dirección">
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -74,4 +74,5 @@
             </div>
       </div>
             {!!Form::close()!!}           
+            <a onclick="history.go(-1);"><button class="btn btn-warning">Regresar</button></a>
 @endsection

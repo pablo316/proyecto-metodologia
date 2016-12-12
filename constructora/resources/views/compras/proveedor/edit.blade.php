@@ -2,7 +2,7 @@
 @section ('contenido')
       <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <h3>Editar Proveedor: {{$proveedor->pro_nombre}}</h3>
+                  <h3>Editar proveedor: {{$proveedor->pro_nombre}}</h3>
                   @if (count($errors)>0)
                   <div class="alert alert-danger">
                         <ul>
@@ -27,12 +27,12 @@
                   <input type="text" name="pro_nombre" class="form-control" value="{{$proveedor->pro_nombre}}" placeholder="Nombre">
             </div>
             <div class="form-group">
-                  <label for="pro_direccion">Direccion</label>
-                  <input type="text" name="pro_direccion" class="form-control" value="{{$proveedor->pro_direccion}}" placeholder="Direccion">
+                  <label for="pro_direccion">Dirección</label>
+                  <input type="text" name="pro_direccion" class="form-control" value="{{$proveedor->pro_direccion}}" placeholder="Dirección">
             </div>
             <div class="form-group">
-                  <label for="pro_telefono">Telefono</label>
-                  <input type="text" name="pro_telefono" class="form-control" value="{{$proveedor->pro_telefono}}" placeholder="Telefono">
+                  <label for="pro_telefono">Teléfono</label>
+                  <input type="text" name="pro_telefono" class="form-control" value="{{$proveedor->pro_telefono}}" placeholder="Teléfono">
             </div>
             <div class="form-group">
                   <button class="btn btn-primary" type="submit">Guardar</button>
@@ -40,7 +40,7 @@
             </div>
 
             {!!Form::Close()!!}                    
-            
+            <a onclick="history.go(-1);"><button class="btn btn-warning">Regresar</button></a>
             </div>
       </div>
 @endsection

@@ -2,7 +2,7 @@
 @section ('contenido')
 <div class="row">
 	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-		<h3>Listado de Proveedores <a href="proveedor/create"><button class="btn btn-success">Nuevo</button></a></h3>
+		<h3>Listado de proveedores <a href="proveedor/create"><button class="btn btn-success">Nuevo</button></a></h3>
 		@include('compras.proveedor.search')
 	</div>
 </div>
@@ -14,8 +14,8 @@
 				<thead>
 					<th>Rut</th> 
 					<th>Nombre</th>
-					<th>Deireccion</th>
-					<th>Telefono</th>
+					<th>Dirección</th>
+					<th>Teléfono</th>
 					<th>Opciones</th>
 				</thead>
                @foreach ($proveedores as $pro)

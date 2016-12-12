@@ -12,12 +12,12 @@
 		<div class="table-responsive">
 			<table class="table table-striped table-bordered table-condensed table-hover">
 				<thead>
-					<th>Codigo del Material</th> 
-					<th>Rut del Proveedor</th>
+					<th>Código del material</th> 
+					<th>Rut del proveedor</th>
 					<th>Nombre</th>
 					<th>Marca</th>
-					<th>Stock Inicial</th>
-					<th>Stock Minimo</th>
+					<th>Stock actual</th>
+					<th>Stock mínimo</th>
 					<th>Fecha</th>
 					<th>Precio</th>
 

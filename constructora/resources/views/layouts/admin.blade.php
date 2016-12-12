@@ -49,14 +49,14 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <small class="bg-red">Online</small>
-                  <span class="hidden-xs">Paula Lamas</span>
+                  <span class="hidden-xs">{{ Auth::user()->name }} </span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
                     
                     <p>
-                      Mi cuenta
+                      {{ Auth::user()->name }} 
                     </p>
                   </li>
                   
@@ -137,7 +137,7 @@
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-info-circle"></i> <span>Acerca De...</span>
+                <i class="fa fa-info-circle"></i> <span>Acerca de...</span>
                 <small class="label pull-right bg-yellow">IT</small>
               </a>
             </li>
@@ -162,7 +162,7 @@
             <div class="col-md-12">
               <div class="box">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Sistema de Compras</h3>
+                  <h3 class="box-title">Sistema de compras</h3>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                     

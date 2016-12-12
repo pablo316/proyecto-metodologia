@@ -34,19 +34,19 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_apellidopaterno">Apellido Paterno</label>
+                        <label for="cli_apellidopaterno">Apellido paterno</label>
                         <input type="text" name="cli_apellidopaterno" class="form-control" value="{{$clientes->cli_apellidopaterno}}">
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_apellidomaterno">Apellido Materno</label>
+                        <label for="cli_apellidomaterno">Apellido materno</label>
                         <input type="text" name="cli_apellidomaterno" class="form-control" value="{{$clientes->cli_apellidomaterno}}">
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_razonsocial">RazonSocial</label>
+                        <label for="cli_razonsocial">Razón social</label>
                         <input type="text" name="cli_razonsocial" class="form-control" value="{{$clientes->cli_razonsocial}}">
                   </div>
             </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                        <label for="cli_direccion">Direccion</label>
+                        <label for="cli_direccion">Dirección</label>
                         <input type="text" name="cli_direccion" class="form-control"  value="{{$clientes->cli_direccion}}">
                   </div>
             </div>
@@ -77,4 +77,5 @@
       </div>
 
             {!!Form::Close()!!}                    
+            <a onclick="history.go(-1);"><button class="btn btn-warning">Regresar</button></a>
 @endsection
